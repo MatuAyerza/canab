@@ -3,8 +3,9 @@
   <head>
     <title><%= title %></title>
     <link rel='stylesheet' href='/stylesheets/style.css' />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Abril+Fatface|Domine">
     <!-- Hotjar Tracking Code for https://canab.herokuapp.com/ -->
-    <script>
+    <!-- <script>
         (function(h,o,t,j,a,r){
             h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
             h._hjSettings={hjid:2589827,hjsv:6};
@@ -13,7 +14,7 @@
             r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
             a.appendChild(r);
         })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
-    </script>
+    </script> -->
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-DH2LP3PP8D"></script>
     <script>
@@ -25,8 +26,61 @@
     </script>
   </head>
   <body>
-    <h1><%= title %></h1>
-    <p>Welcome to <%= title %></p>
-    <p>by Pepson © Z-Devs 2021</p>
+    <header class="header">
+      <h1 class="logo-like"><%= title %></h1>
+    </header>
+    <section class="main-land">
+      <h2>Suscribite a la Moda</h2>
+      <div class="main-div">
+        <h3>Lo ultimo en moda, a un solo click, directo a tu casa</h3>
+        <a href="#contact" class="cta"><button>Quiero saber mas</button></a>
+      </div>
+    </section>
+    <section class="about">
+      <h3 class="title">Suscribite a vestirte como siempre quisiste</h3>
+      <p>En NACAB ofrecemos una suscripcion en la cual diseñadoras personales se encargan de elegirte tus mejores looks.</p>
+      <p>Luego te envian una caja con las prendas adecudas para que siempre estes a la vanguardia de la moda y vos elegis con cuales quedarte.</p>
+      <a href="#contact" class="cta-about"><button>Quiero suscribirme</button></a>
+    </section>
+    <section class="sub-land">
+      <h2>Suscripciones</h2>
+      <div class="sub-div">
+        <div>
+          <h3>MENSUAL</h3>
+          <img src="../images/monthly.jpeg" alt="monthly" width="300px" height="500px">
+        </div>
+        <div>
+          <h3>ESTACIONAL</h3>
+          <img src="../images/seasonly.jpeg" alt="seasonly" width="300px" height="500px">
+        </div>
+        <div>
+          <h3>ANUAL</h3>
+          <img src="../images/anually.jpeg" alt="anually" width="300px" height="500px">
+        </div>
+      </div>
+      <a href="#contact" class="cta-sub"><button>Quiero saber mas</button></a>
+    </section>
+    <section class="about">
+      <h3 class="title">¿Cual es mi fit perfecto?</h3>
+      <div class="sub-div sub-about">
+        <div>
+          <h3>MENSUAL</h3>
+          <p>Si te gusta siempre lucirte con tus allegados y tu ambiente laboral, esta suscripcion se asegura que tengas prendas nuevas para elegir TODOS los meses.</p>
+        </div>
+        <div>
+          <h3>ESTACIONAL</h3>
+          <p>Sabemos que cada estacion de año es un evento especial y no hay mejor momento para desenfundar nuevos looks. Recibis en tu casa lo ultimo de la moda para que puedas exhibir los looks que se vienen.</p>
+        </div>
+        <div>
+          <h3>ANUAL</h3>
+          <p>A vos que todos los años propones metas nuevas, las podes acompañar con looks nuevos para cada año, recibiendo una caja con lo ultimo que se viene para que arranques a full.</p>
+        </div>
+      </div>
+      <a href="#contact" class="cta-about"><button>Suscribite a la moda</button></a>
+    </section>
+    <section id="contact" class="about">
+      <p>ACA IRIA EL FORM DE SURVEY KIWI</p>
+      <p>© 2021 CANAB</p>
+    </section>
   </body>
 </html>

@@ -1,8 +1,160 @@
 body {
   padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  font: 25px "Garamond", Helvetica, Arial, sans-serif;
+  background-color: black;
+  color: white;
+  padding: 0;
+  margin: 0;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+}
+
+.logo-like {
+  font: 60px "Garamond";
+  border-bottom: 2px solid #dc9e50
+}
+
+.main-land {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  padding-bottom: 10px;
+  background-image: url('../images/bgmain1.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: top;
+  height: 85vh;
+  width: 100%;
+}
+
+h2 {
+  font-family: "Abril-Fatface";
+  font-size: 80px;
+}
+
+.main-div {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+h3 {
+  font-family: "Domine";
+  font-size: 35px;
+}
+
+.about {
+  background: white;
+  color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 84px 0px;
+}
+
+.title {
+  border-bottom: 2px solid #dc9e50
+}
+
+.cta {
+  width: 75%;
+  color: white;
+  height: 45px;
+}
+
+.cta button {
+  color: white;
+  background: #222;
+  width: 100%;
+  height: 45px;
+}
+
+.cta button:hover {
+  background: #444;
+}
+
+.cta-about {
+  width: 30%;
+  color: white;
+  height: 45px;
+  margin-top: 20px
+}
+
+.cta-about button {
+  color: white;
+  background: #222;
+  width: 100%;
+  height: 45px;
+}
+
+.cta-about button:hover {
+  background: #444;
+}
+
+.sub-land {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 50px;
+  background-image: url('../images/bgmain2.jpeg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: top;
+}
+
+.sub-div {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-bottom: 20px;
+  width: 100%;
+}
+
+.sub-div div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.cta-sub {
+  width: 30%;
+  color: white;
+  height: 45px;
+  margin-top: 20px
+}
+
+.cta-sub button {
+  color: white;
+  background: #222;
+  width: 100%;
+  height: 45px;
+}
+
+.sub-about {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-evenly;
+}
+
+.sub-div div {
+  width: 30%;
+}
+
+.sub-div div p {
+  text-align: justify;
 }
 
 a {
-  color: #00B7FF;
+  color: white;
+  text-decoration: none;
 }

@@ -260,6 +260,7 @@ a {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    width: 100%;
   }
 
   .contact-info {
@@ -306,7 +307,7 @@ a {
   }
 
   button {
-    width: 80% !important;
+    width: 100% !important;
   }
 
 }

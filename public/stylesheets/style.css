@@ -161,6 +161,14 @@ h3 {
   width: 30%;
 }
 
+.sub-div div a {
+    display: none;
+  }
+
+.sub-div div button {
+    display: none;
+  }
+
 .sub-div div p {
   text-align: justify;
 }
@@ -179,6 +187,10 @@ h3 {
   padding-right: 50px;
 }
 
+.mobile-survey {
+  display: none !important;
+}
+
 footer {
   text-align: center;
   color: white;
@@ -187,4 +199,101 @@ footer {
 a {
   color: white;
   text-decoration: none;
+}
+
+/* Responsive */
+@media only screen and (max-width: 768px) {
+  body {
+    padding: 0px 10px;
+  }
+
+  .logo-like {
+  font: 80px
+}
+  .main-land {
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .main-land h2 {
+    text-align: center;
+  }
+
+  .main-land {
+    padding-bottom: 25px;
+  }
+
+  .main-land div h3 {
+    text-align: center;
+  }
+
+  .about {
+    padding: 0px 10px;
+    padding-bottom: 20px;
+    height: auto;
+  }
+
+  .cta-about {
+    height: 75px;
+  }
+
+  .sub-land h2 {
+    margin: 15px 0px;
+  }
+
+  .sub-div {
+    flex-direction: column;
+  }
+
+  .sub-about {
+    align-items: center;
+  }
+
+  .sub-about div {
+    width: 75%;
+  }
+
+  .survey-wrapper .columns {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .contact-info {
+    width: 100%;
+    border-right: 0;
+    padding-right: 0px;
+  }
+
+  .mobile-survey {
+    display: block !important;
+  }
+
+  .desktop-survey {
+    display: none !important;
+  }
+  
+  .sub-land .cta-sub {
+      display: none;
+    }
+  
+  .sub-land .cta-sub button {
+      display: none;
+  }
+
+  .sub-div div {
+    width: 100%;
+  }
+
+  .sub-div .cta-mini {
+    display: block;
+    height: 75px;
+  }
+
+  .sub-div .cta-mini button {
+    display: block;
+  }
 }

@@ -127,10 +127,11 @@ body {
   justify-content: space-evenly;
   align-items: center;
   padding-bottom: 10px;
-  background-image: url('../images/bgmain1.jpg');
+  background-image: url('../images/bgmain3.jpg');
   background-repeat: no-repeat;
   background-attachment: fixed;
-  background-position: top;
+  background-position: center;
+  background-size: cover;
   height: 85vh;
   width: 100%;
 }
@@ -198,10 +199,16 @@ h3 {
   flex-direction: column;
   align-items: center;
   padding-bottom: 50px;
-  background-image: url('../images/bgmain2.jpeg');
+  background-image: url('../images/bgmain4.jpeg');
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: top;
+}
+
+.sub-land h2 {
+  background: black;
+  padding: 10px 20px;
+  border: white 2px solid;
 }
 
 .sub-div {
@@ -218,6 +225,8 @@ h3 {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  position: relative;
+  width: 30%;
 }
 
 .cta-sub {
@@ -239,8 +248,13 @@ h3 {
   justify-content: space-evenly;
 }
 
-.sub-div div {
-  width: 30%;
+.sub-land .sub-div div h3 {
+    background: black;
+    padding: 20px;
+    border: white 2px solid;
+    position: absolute;
+    top: 40px;
+    left: 100px;
 }
 
 .sub-div div a {
@@ -337,6 +351,9 @@ a {
 
   .sub-land h2 {
     margin: 15px 0px;
+    background: black;
+    padding: 20px;
+    border: white 2px solid;
   }
 
   .sub-div {
@@ -385,9 +402,11 @@ a {
     width: 100%;
   }
 
-  .sub-div div img {
-    width: 240px;
-    height: 400px;
+  .sub-land .sub-div div h3 {
+    background: black;
+    padding: 20px;
+    border: white 2px solid;
+    position: unset;
   }
 
   .sub-div .cta-mini {
